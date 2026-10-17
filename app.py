@@ -9,7 +9,7 @@ st.title("🏛️ PoC: Trợ lý AI Pháp lý Du lịch & PCCC (Gemini Agent)")
 
 # 2. Nhập API Key (Hoặc set cứng biến môi trường)
 # api_key = st.sidebar.text_input("Nhập Google Gemini API Key:", type="password")
-api_key = "AQ.Ab8RN6L7sUl8fJMjjAkltJeITEb16NzdiBoSRD22OFUgD3BCPw"
+api_key = "AQ.Ab8RN6LtWmc4hgyN-U_QhpFBkqDB2D0pP0QN-yvmlhFA98ZAGA"
 if not api_key:
     st.warning("Vui lòng nhập API Key để bắt đầu sử dụng.")
     st.stop()
