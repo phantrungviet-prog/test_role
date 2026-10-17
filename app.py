@@ -1,4 +1,4 @@
-import os
+import os 
 import streamlit as st
 from google import genai
 from google.genai import types
@@ -9,7 +9,8 @@ st.title("🏛️ PoC: Trợ lý AI Pháp lý Du lịch & PCCC (Gemini Agent)")
 
 # 2. Nhập API Key (Hoặc set cứng biến môi trường)
 # api_key = st.sidebar.text_input("Nhập Google Gemini API Key:", type="password")
-api_key = "AQ.Ab8RN6LtWmc4hgyN-U_QhpFBkqDB2D0pP0QN-yvmlhFA98ZAGA"
+# api_key = "AQ.Ab8RN6LtWmc4hgyN-U_QhpFBkqDB2D0pP0QN-yvmlhFA98ZAGA"
+api_key = st.secrets["GEMINI_API_KEY"]
 if not api_key:
     st.warning("Vui lòng nhập API Key để bắt đầu sử dụng.")
     st.stop()
