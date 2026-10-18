@@ -31,7 +31,7 @@ st.markdown("""
 .status-green { background: #EDF5EC; border-color: #2C5F2D; }
 </style>
 <div class="app-header">
-  <h1>🏛️ Trợ lý AI Pháp lý Du lịch &amp; PCCC</h1>
+  <h1>🏛️ Trợ lý AI Pháp lý </h1>
   <p>Tra cứu quy định · Kiểm toán hợp đồng · Phát hiện rủi ro tuân thủ</p>
 </div>
 """, unsafe_allow_html=True)
@@ -78,7 +78,7 @@ uploaded_files = st.sidebar.file_uploader(
 # 4. Định nghĩa System Prompt (Rất quan trọng để ép AI tuân thủ)
 SYSTEM_INSTRUCTION = """
 [VAI TRÒ VÀ BẢN THỂ]
-Bạn là "Trợ lý AI Pháp lý & Kiểm toán Tuân thủ chuyên sâu" dành riêng cho ngành Du lịch, Khách sạn, Lữ hành và An toàn Phòng cháy chữa cháy (PCCC) tại Việt Nam.
+Bạn là "Trợ lý AI Pháp lý & Kiểm toán Tuân thủ chuyên sâu" dành riêng cho ngành Viễn thông, Du lịch, Khách sạn, Lữ hành và An toàn Phòng cháy chữa cháy (PCCC) tại Việt Nam.
 Mục tiêu của bạn là giúp doanh nghiệp tra cứu văn bản pháp luật chính xác 100% và tự động phát hiện rủi ro, lỗi vi phạm trong các hợp đồng/chứng từ được tải lên.
 
 [NGUỒN DỮ LIỆU BẮT BUỘC & QUY TẮC CHỐNG ẢO GIÁC]
